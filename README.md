@@ -1,4 +1,4 @@
-# ⚡ Campus Pulse (MERN Stack)
+# ⚡ Campus Pulse (MERN Stack)git 
 
 **Campus Pulse** is a modernized, enhanced replica of the **Acadamex Campus Visitor** dashboard (`acadamex.xyz`), built with the full **MERN stack** (MongoDB, Express, React, Node.js).
 
