@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+}
+
+/* Neo-brutalist utilities */
+.brutal-border {
+  border: 2px solid #000000;
+}
+
+.brutal-border-b {
+  border-bottom: 2px solid #000000;
+}
+
+.brutal-shadow {
+  box-shadow: 3px 3px 0px 0px #000000;
+}
+
+.brutal-shadow-lg {
+  box-shadow: 5px 5px 0px 0px #000000;
+}
+
+.brutal-shadow-sm {
+  box-shadow: 2px 2px 0px 0px #000000;
+}
+
+.brutal-btn {
+  border: 2px solid #000000;
+  box-shadow: 2px 2px 0px 0px #000000;
+  transition: all 0.1s ease-in-out;
+}
+
+.brutal-btn:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0px 0px #000000;
+}
+
+.brutal-btn:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0px 0px #000000;
+}
+
+/* Diagonal Ribbon for timed out listings */
+.timed-out-ribbon {
+  position: absolute;
+  top: 18px;
+  left: -28px;
+  transform: rotate(-45deg);
+  background: #64748b;
+  color: #ffffff;
+  font-size: 9px;
+  font-weight: 800;
+  padding: 2px 30px;
+  border: 1px solid #000000;
+  letter-spacing: 1px;
+}
