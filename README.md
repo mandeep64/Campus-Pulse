@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ⚡ Campus Pulse (MERN Stack)
 
 **Campus Pulse** is a modernized, enhanced replica of the **Acadamex Campus Visitor** dashboard (`acadamex.xyz`), built with the full **MERN stack** (MongoDB, Express, React, Node.js).
@@ -89,6 +88,3 @@ MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/campuspulse
 ```
 *(If no MongoDB URI is set, the server automatically uses local resilient JSON storage with zero setup!)*
 
-=======
-# Campus-Pulse
->>>>>>> ea17025bae3f805123b9e2ddcb1a0456bbf32e6d
